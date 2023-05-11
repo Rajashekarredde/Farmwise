@@ -69,9 +69,8 @@ const PostsContainer = () => {
     return (
         <>
         
-            <div className="flex flex-col" style={{ maxWidth: "52rem", marginTop: "5%" }}>
+            <div className="flex flex-col" style={{ maxWidth: "52rem", marginTop: "1%" }}>
 
-                <StoriesContainer />
 
                 {loading &&
                     Array(5).fill("").map((el, i) => (<SkeletonPost key={i} />))
