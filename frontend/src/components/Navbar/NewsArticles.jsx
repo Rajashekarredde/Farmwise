@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import './NewsArticles.css'
+import  './NewsArticles.css'; 
 import Img1 from "../../assests/images/image1.jpeg";
 import Img2 from "../../assests/images/image2.jpeg";
 import Img3 from "../../assests/images/image3.jpeg";
@@ -78,7 +78,9 @@ const NewsArticles = () => {
   const renderItem = (item, index) => {
     return (
       <div key={index} className="mb-10 md:mx-4">
+        <div className="articleImage">
         <img src={item.image} alt={item.title} className="mb-2" />
+        </div>
         <h2
           className="text-2xl font-bold mb-2 cursor-pointer"
           onClick={() => openModal(item.description)}
