@@ -29,19 +29,19 @@ const sliderSettings = {
 
   const problemsData = [
     {
-      img: Img1,
+      img: "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/297fda97406121.5ec44bd7125cd.gif",
       title: 'Problem 1',
-      description: 'Description of the first problem related to non-organic farming.',
+      description: 'Organic farming nurtures the earth, sustains life, and cultivates health',
     },
     {
-      img: Img2,
+      img: "https://croplife.org/wp-content/uploads/2021/06/H_CropLife1_v2.gif",
       title: 'Problem 2',
-      description: 'Description of the second problem related to non-organic farming.',
+      description: 'Organic farming is not a trend its a tradition of respecting and preserving the land',
     },
     {
-      img: Img3,
+      img: "https://2.bp.blogspot.com/-oYAk1Lv4FjU/Wdz7riVpq7I/AAAAAAAAaBc/vMZWZxCWcqIVmwVI7ckfhbNabp9seQlugCLcBGAs/w557-h313/NEEled-1.gif",
       title: 'Problem 3',
-      description: 'Description of the third problem related to non-organic farming.',
+      description: 'The choice to support organic farming is a choice for a healthier future',
     },
   ];
   
@@ -57,7 +57,7 @@ const Auth = ({ children }) => {
                 <Slider {...sliderSettings}>
       {sliderData.map((slide, index) => (
         <div key={index} className="slider-image-container">
-          <img className="slider-image" src={slide.img} alt={slide.title} />
+          <img className="slider-image" src={slide.img} alt={slide.title}/>
           <div className="slider-image-overlay"></div>
           <h3>{slide.title}</h3>
         </div>
@@ -69,7 +69,7 @@ const Auth = ({ children }) => {
                     {children}
                 </div>
             </div>
-            <h2 className="fancy-heading">Problems</h2>
+            <h2 className="fancy-heading">Benefits</h2>
             <div className="blocks-container">
   {problemsData.map((problem, index) => (
     <div key={index} className="block">
