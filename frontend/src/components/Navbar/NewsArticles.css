@@ -5,3 +5,10 @@
   max-height: 230px;
   border-radius: 5px;
 }
+
+.title {
+  color: #171212;
+  text-shadow: 2px 2px 4px #40e305ba;
+  letter-spacing: 1px;
+  line-height: 1;
+}
