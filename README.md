@@ -1,7 +1,7 @@
 # Farmwise MERN
 Full-Stack Site using MERN Stack and Socket.io
 
-[Visit Now](https://http://44.212.10.109:3000/login/) 🚀
+[Visit Now](http://44.212.10.109:3000/login/) 🚀
 
 ## 🖥️ Tech Stack
 **Frontend:**
