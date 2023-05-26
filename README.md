@@ -1,4 +1,4 @@
-# Instagram MERN
+# Farmwise MERN
 Full-Stack Site using MERN Stack and Socket.io
 
 [Visit Now](https://instagramernstack.herokuapp.com/) 🚀
