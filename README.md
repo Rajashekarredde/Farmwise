@@ -1,5 +1,5 @@
 # Instagram MERN
-Full-Stack Instgram Clone using MERN Stack and Socket.io
+Full-Stack Site using MERN Stack and Socket.io
 
 [Visit Now](https://instagramernstack.herokuapp.com/) 🚀
 
